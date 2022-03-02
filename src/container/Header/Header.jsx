@@ -4,11 +4,8 @@ import { SubHeading } from "../../components";
 import './Header.css';
 
 
-const Header = () => {
-
-
- return (
-  <div className="app__header app__wrapper section__pa" id='home'>
+const Header = () => (
+  <div className="app__header app__wrapper section__padding" id='home'>
     <div className="app__wrapper_info">
 <SubHeading title='Chase The  New Flavour'/>
 <h1 className="app__header-h1">The Key to Fine Dining</h1>
@@ -16,11 +13,12 @@ const Header = () => {
  Condimentum volutpat morbi facilisis quam scelerisque sapien. Et, penatibus aliquam amet tellus </p>
  <button type='button' className="custom__button">Explore Menu</button>
     </div>
-    <div className="app__wrapper_image">
-<img src={Images.welcome} alt="header image"  />
+    <div className="app__header-img">
+<img src={Images.welcome} alt="header image" />
     </div>
   </div>
- )
- };
+ );
 
 export default Header;
+// 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
+// git remote set-url origin https://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@github.com/meryamun/figma-react-resaurant-app-2022.git
